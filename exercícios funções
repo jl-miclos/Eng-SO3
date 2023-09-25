@@ -1,0 +1,74 @@
+#include <stdio.h>
+
+
+//exercicios função
+
+//1
+int soma(int a,int b){
+    int s = a + b;
+    return s;
+}
+
+//2
+void trocar(int *a,int *b){
+    int m;
+    m = *a;
+    *a = *b;
+    *b = m;
+}
+
+// 3
+int media(int vetor[],int l){
+    int m = 0;
+    for (int i=0; i < l; i++){
+        // printf("\n%d",vetor[i]);
+        m += vetor[i];
+        // printf("\n%d",m);
+    }
+    return m/l;
+}
+// 4
+int maximo(int vetor[],int l){
+    int t = 0;
+    for (int i=0; i < l; i++){
+        if (t<= vetor[i]){
+            t = vetor[i];
+        }
+    }
+    return t;
+}
+
+// 5
+// void inverter (char* string){
+//     char* inversa = "";
+//     int tam = strlen(string) - 1;
+//     for(int i =0;i<tam;i++ ){
+//         printf("%c",string[i]);
+//         printf("\n");
+//         for (int j=tam;j>0;j--){
+//             inversa [i] = string[j];
+//           printf("%c",string[j]); 
+//         }
+    
+//         printf("%c",inversa[i]);
+//     }
+// }
+
+int main()
+{
+    int a = 6;
+    int b = 9;
+    printf("%d",soma(a,b));
+    printf("\n%d,%d",a,b);
+    trocar(&a,&b);
+    printf("\n%d,%d",a,b);
+    int valores[] = {10, 50, 30, 40, 20};
+    printf("\n%d",media(valores,5));
+    printf("\n%d",maximo(valores,5));
+
+    char minhaString[] = "Ola, Mundo!";
+    inverter(minhaString);
+
+
+    return 0;
+}
