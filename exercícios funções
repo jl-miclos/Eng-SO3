@@ -54,6 +54,15 @@ int maximo(int vetor[],int l){
 //     }
 // }
 
+//6
+int somaMatriz(int vetor[],int l){
+    int s=0;
+    for (int i=0; i<l;i++){
+        int s += vetor i;
+    }
+    return s;
+}
+
 int main()
 {
     int a = 6;
@@ -66,9 +75,10 @@ int main()
     printf("\n%d",media(valores,5));
     printf("\n%d",maximo(valores,5));
 
-    char minhaString[] = "Ola, Mundo!";
-    inverter(minhaString);
+   //char minhaString[] = "Ola, Mundo!";
+   //inverter(minhaString);
 
+    printf("\n%d",somaMatriz(valores));
 
     return 0;
 }
