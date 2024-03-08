@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" modified="2024-03-08T02:26:31.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="kiZiMe2qegvso_8p359l" version="24.0.2" type="github">
+  <diagram name="Página-1" id="H6OV8BOPbI9O9X60NtVH">
+    <mxGraphModel dx="1235" dy="1824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SXwPd87dmNRzunmvoNJz-1" value="«View»&lt;br&gt;&lt;b&gt;TelaCompra&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="9" y="-870" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Cotrol&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CompraCtr&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="159" y="-870" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-6" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=-0.017;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SXwPd87dmNRzunmvoNJz-3">
+          <mxGeometry x="-0.1082" y="14" width="160" relative="1" as="geometry">
+            <mxPoint x="119" y="-845.5" as="sourcePoint" />
+            <mxPoint x="279" y="-845.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Passagem&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Compra&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- dataHoraCopra: int&lt;br&gt;- valor: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- desconto: int&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ compra(): Void&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="399" y="-870" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;DAO&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CompraDAO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="629" y="-870" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-9" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.994;exitY=0.137;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.023;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SXwPd87dmNRzunmvoNJz-3" target="SXwPd87dmNRzunmvoNJz-7">
+          <mxGeometry x="-0.0606" y="10" width="160" relative="1" as="geometry">
+            <mxPoint x="419" y="-780" as="sourcePoint" />
+            <mxPoint x="579" y="-780" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-10" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=-0.008;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.013;exitY=0.126;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SXwPd87dmNRzunmvoNJz-7" target="SXwPd87dmNRzunmvoNJz-8">
+          <mxGeometry x="-0.1082" y="14" width="160" relative="1" as="geometry">
+            <mxPoint x="129" y="-835.5" as="sourcePoint" />
+            <mxPoint x="166" y="-836" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SXwPd87dmNRzunmvoNJz-11" target="SXwPd87dmNRzunmvoNJz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Passagem&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- poltrona: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ emitirPassagem(): Void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="399" y="-1100" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SXwPd87dmNRzunmvoNJz-13" target="SXwPd87dmNRzunmvoNJz-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Pagamento&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- valorPagamento: int&lt;br&gt;- dataPagamento: int&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ pagar(): Void&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="399" y="-640" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Passagem&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Pix&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- qrCode: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-400" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SXwPd87dmNRzunmvoNJz-13" target="SXwPd87dmNRzunmvoNJz-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Passagem&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Compra&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- numCartao: int&lt;br&gt;- nomeTitular: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- validade: int&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ validar(): Void&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="534" y="-390" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-22" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SXwPd87dmNRzunmvoNJz-7" target="SXwPd87dmNRzunmvoNJz-13">
+          <mxGeometry x="-0.0606" y="10" width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="-690" as="sourcePoint" />
+            <mxPoint x="497" y="-689" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;DAO&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;PassagemCompra DAO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="534" y="-190" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-24" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="SXwPd87dmNRzunmvoNJz-23" source="SXwPd87dmNRzunmvoNJz-19">
+          <mxGeometry x="-0.1082" y="14" width="160" relative="1" as="geometry">
+            <mxPoint x="724" y="-372" as="sourcePoint" />
+            <mxPoint x="299" y="-356" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;DAO&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;PassagemPix DAO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-200" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SXwPd87dmNRzunmvoNJz-26" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SXwPd87dmNRzunmvoNJz-16" target="SXwPd87dmNRzunmvoNJz-25">
+          <mxGeometry x="-0.0646" y="-10" width="160" relative="1" as="geometry">
+            <mxPoint x="734" y="-362" as="sourcePoint" />
+            <mxPoint x="220" y="-390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
